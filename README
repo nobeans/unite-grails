@@ -1,5 +1,8 @@
-a unite.vim plugin for grails
+A unite.vim plugin for grails
 
+========================
+ Basics
+========================
 
 unite /grails-app/domain
   :Unite grails/domain
@@ -22,33 +25,37 @@ unite /grails-app/i18n
 unite /grails-app/utils
   :Unite grails/utils
 
-unite /grails-app/config
-  :Unite grails/config
+unite /grails-app/conf
+  :Unite grails/conf
 
 unite /src/groovy
-  :Unite grails/src/groovy
+  :Unite grails/src_groovy
 
 unite /src/java
-  :Unite grails/src/java
+  :Unite grails/src_java
 
 unite /log
   :Unite grails/log
 
 unite /web-app/js
-  :Unite grails/javascripts
+  :Unite grails/js
 
 unite /web-app/css
-  :Unite grails/stylesheets
+  :Unite grails/css
 
-======================
-
-* quartz.plugin
+========================
+ For quartz plugin
+========================
 
 unite /grails-app/jobs
   :Unite grails/jobs
 
-* installed template
+========================
+ For installed template
+========================
 
 unite /src/templates
-  :Unite grails/src/templates
+  :Unite grails/src_templates
 
+----
+This plugin is inspired vi https://github.com/basyura/unite-rails.
