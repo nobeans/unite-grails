@@ -1,0 +1,54 @@
+a unite.vim plugin for grails
+
+
+unite /grails-app/domain
+  :Unite grails/domain
+
+unite /grails-app/controllers
+  :Unite grails/controllers
+
+unite /grails-app/services
+  :Unite grails/services
+
+unite /grails-app/taglib
+  :Unite grails/taglib
+
+unite /grails-app/views
+  :Unite grails/views
+
+unite /grails-app/i18n
+  :Unite grails/i18n
+
+unite /grails-app/utils
+  :Unite grails/utils
+
+unite /grails-app/config
+  :Unite grails/config
+
+unite /src/groovy
+  :Unite grails/src/groovy
+
+unite /src/java
+  :Unite grails/src/java
+
+unite /log
+  :Unite grails/log
+
+unite /web-app/js
+  :Unite grails/javascripts
+
+unite /web-app/css
+  :Unite grails/stylesheets
+
+======================
+
+* quartz.plugin
+
+unite /grails-app/jobs
+  :Unite grails/jobs
+
+* installed template
+
+unite /src/templates
+  :Unite grails/src/templates
+
