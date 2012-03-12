@@ -2,7 +2,7 @@
 " autoload/unite/sources/grails/domain.vim
 "   unite#sources#grails#domain#candidates
 "     [
-"       {  
+"       {
 "         word   : file_name,
 "         kind   : file ,
 "         action__path      : path ,

@@ -28,11 +28,23 @@ unite /grails-app/utils
 unite /grails-app/conf
   :Unite grails/conf
 
+unite /src
+  :Unite grails/src
+
 unite /src/groovy
   :Unite grails/src_groovy
 
 unite /src/java
   :Unite grails/src_java
+
+unite /test
+  :Unite grails/test
+
+unite /test/unit
+  :Unite grails/test_unit
+
+unite /test/integration
+  :Unite grails/test_integration
 
 unite /log
   :Unite grails/log
@@ -56,6 +68,13 @@ unite /grails-app/jobs
 
 unite /src/templates
   :Unite grails/src_templates
+
+========================
+ For functional test
+========================
+
+unite /test/functional
+  :Unite grails/test_functional
 
 ----
 This plugin is inspired vi https://github.com/basyura/unite-rails.
