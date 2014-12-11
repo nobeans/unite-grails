@@ -55,6 +55,9 @@ unite /web-app/js
 unite /web-app/css
   :Unite grails/css
 
+unite /grails-app/assets
+  :Unite grails/assets
+
 ========================
  For quartz plugin
 ========================
