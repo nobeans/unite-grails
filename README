@@ -49,12 +49,6 @@ unite /test/integration
 unite /log
   :Unite grails/log
 
-unite /web-app/js
-  :Unite grails/js
-
-unite /web-app/css
-  :Unite grails/css
-
 unite /grails-app/assets
   :Unite grails/assets
 
